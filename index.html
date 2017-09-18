@@ -11,6 +11,21 @@
 
     <link rel="manifest" href="manifest.json">
 
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBq1Zxm0XzlOArUVp5PNwQvdjh5KrJ58OA",
+        authDomain: "pwa-escame.firebaseapp.com",
+        databaseURL: "https://pwa-escame.firebaseio.com",
+        projectId: "pwa-escame",
+        storageBucket: "",
+        messagingSenderId: "967325243496"
+      };
+      firebase.initializeApp(config);
+    </script>
+
     <script src="js/object.observe.polyfill.js"></script>
     <script src="js/array.observe.polyfill.js"></script>
     <script src="js/scripts.js"></script>
